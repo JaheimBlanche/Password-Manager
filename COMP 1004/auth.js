@@ -25,7 +25,6 @@ document.addEventListener('DOMContentLoaded', () => {
             window.location.href = "home.html";
         } else {
             errorElement.textContent = "Invalid credentials";
-            // Optional: Increment failed attempts counter
         }
     });
 });
